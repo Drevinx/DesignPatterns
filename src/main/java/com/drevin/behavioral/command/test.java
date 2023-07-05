@@ -6,8 +6,8 @@ public class test {
 
         Television television = new Television();
         RemoteController remoteController = new RemoteController();
-        TurnOnCommand turnOnCommand = new TurnOnCommand(television);
+        Command turnOn = new TurnOnCommand(television);
 
-        turnOnCommand.execute();
+        turnOn.execute();
     }
 }
