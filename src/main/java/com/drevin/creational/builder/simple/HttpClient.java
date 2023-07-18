@@ -1,4 +1,4 @@
-package com.drevin.creational.builder;
+package com.drevin.creational.builder.simple;
 
 public class HttpClient {
     private String method;
